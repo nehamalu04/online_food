@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/STYLES.CSS">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> Foodie</a>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#features">FEATURES</a>
+            <a href="#products">PRODUCTS</a>
+            <a href="#categories">CATEGORIES</a>
+            <a href="#review">REVIEW</a>
+            <a href="#blogs">BLOGS</a>
+            <a href="#contact">CONTACT</a> <!-- Added CONTACT link -->
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+<form action="active" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img/burger1.png" alt="Burger">
+                <div class="content">
+                    <h3>Burger</h3>
+                    <span class="price">$5.99</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img/chicken.png" alt="Fried Chicken">
+                <div class="content">
+                    <h3>Fried Chicken</h3>
+                    <span class="price">$4.99</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img/pizza.png" alt="Pizza">
+                <div class="content">
+                    <h3>Pizza</h3>
+                    <span class="price">$4.99</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="total">$18.79</div>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+         <form action="active" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="password" placeholder="Your Password" class="box">
+            <p>Forgot your password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Create now</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </header>
+    <!--header section ends-->
+    <!--home section starts-->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>Tickle Your <span>Taste Buds</span> with Every Bite!</h3>
+            <p>I go to the fanciest restaurants in the world and try them out. I like to see these chefs that are wizards do their thing. I like two types of food: cheap fast food - In-N-Out Burger, Taco Bell, stuff like that - or expensive food. Anything in between just bothers me...!
+                </p>
+                <a href="#" class="btn">Order now</a>
+        </div>
+     </section>
+    <!--home section ends-->
+    <!--features section starts-->
+    <section class="features" id="features">
+       <h1 class="heading">Our <span>features</span></h1> 
+      <div class="box-container">
+            <div class="box">
+                <img src="img/foods.png" alt="tasty food">
+                <h3>Tasty Foods</h3>
+                <p>Food is our common ground, a universal experience!...</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="box">
+                <img src="img/deliver.png" alt="Free delivery">
+                <h3>Delivery services</h3>
+                <p>We use competitive markets to arrange for delivery of our food supply...</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="box">
+                <img src="img/payment.png" alt="payment">
+                <h3>Payment Services</h3>
+                <p>There are two paths people can take. They can either play now and pay later, or pay now and play later. Regardless of the choice, one thing is certain. Life will demand a payment...</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+      </div>
+   </section>
+<!--features section ends-->
+<!-- Products Section Starts -->
+<section class="Products" id="products">
+  <h1 class="heading">Our <span>Products</span></h1>
+  <div class="box-container">
+      <div class="box">
+        <img src="img/sandwich.png" alt="sandwich">
+        <h3>Sandwich</h3> 
+        <div class="price">$8.6/- - 11.3/-</div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="img/bread roll.png" alt="bread roll">
+        <h3>Bread roll</h3> 
+        <div class="price">$7.6/- - 10.5/-</div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="img/lollipop.png" alt="chicken lollipop">
+        <h3>Chicken lollipop</h3> 
+        <div class="price">$9.39/- - 11.6/-</div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+  </div></section>
+<!-- Products Section Ends -->
+<!--categories section starts-->
+        <section class="categories" id="categories">
+            <h1 class="heading">Product <span>categories</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/burger1.png"alt="burger">
+                <h1>Burger</h1>
+            <p>upto 45% offer</p>              
+        <a href="#" class="btn">Shop now</a>
+        </div>
+            <div class="box">
+                <img src="img/kfc.png"alt="KFC">
+            <h1>KFC</h1>
+        <p>upto 45% offer</p>   
+         <a href="#" class="btn">Shop now</a>
+    </div>
+    <div class="box">
+        <img src="img/pizza.png"alt="pizza">
+    <h1>Pizza</h1>
+<p>upto 45% offer</p>   
+ <a href="#" class="btn">Shop now</a>
+        </div>
+        <div class="box">
+          <img src="img/shavarma.png"alt="shavarma">
+          <h1>Shavarma</h1>
+          <p>upto 45% offer</p>   
+           <a href="#" class="btn">Shop now</a>
+        </div>
+        </section>
+<!--categories section ends-->
+     <!--review section starts-->
+    <section class="review" id="review">
+        <h1 class="heading">Customer <span>Review</span></h1>
+    <div class="swiper review-slider">
+      <div class="box-container">
+        <div class="box">
+          <img src="img/alexy.png" alt="alexy">
+          <p>Need more choices, and in the morning should open before 7.30. It needs to either have a buffet service or faster serving time. It also needs to reduce mistakes in taking orders.</p>
+          <h3>Alexy</h3>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/shiuzy.jpg" alt="shiuzy">
+          <p>The Food we had enjoyed at the time of dinner. It was really delicious taste with great quality, everything had unique taste which we had ordered, nice arrangement and services from the staff while eating, we found nothing bad about this hotel.</p>
+          <h3>Shiuzy</h3>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/luise.png" alt="luise">
+          <p>. The imagination of our chefs will never bore you with always different and delicious dishes. The attention in choice of genuine and local ingredients will relax you The accurate service, the elegance of our dining halls will make you feel at ease.</p>
+          <h3>Luise</h3>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+<!---our blog section--->
+    <section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>Blogs</span></h1>
+    <div class="swiper review-slider">
+      <div class="box-container">
+        <div class="box">
+          <img src="img/food1.png" alt="food">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i>by user</a>
+              <a href="#"><i class="fa fa-calendar"></i>1st Aug, 2023</a>
+            </div>
+            <h3>Food is our common ground, a universal experience</h3>
+            <p>The imagination of our chefs will never bore you with always different and delicious dishes. The attention in choice of genuine and local ingredients will relax you The accurate service, the elegance of our dining halls will make you feel at ease.</p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/foods.png" alt="foods">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i>by user</a>
+              <a href="#"><i class="fa fa-calendar"></i>1st Aug, 2023</a>
+            </div>
+            <h3>Food is our common ground, a universal experience</h3>
+            <p>The imagination of our chefs will never bore you with always different and delicious dishes. The attention in choice of genuine and local ingredients will relax you The accurate service, the elegance of our dining halls will make you feel at ease.</p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/food3.png" alt="food">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i>by user</a>
+              <a href="#"><i class="fa fa-calendar"></i>1st Aug, 2023</a>
+            </div>
+            <h3>Food is our common ground, a universal experience</h3>
+            <p>The imagination of our chefs will never bore you with always different and delicious dishes. The attention in choice of genuine and local ingredients will relax you The accurate service, the elegance of our dining halls will make you feel at ease.</p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+<!--review section ends-->
+<!--contact section starts-->
+   <!-- Footer Section Starts -->
+   <footer>
+    <div class="social-media">
+        <a href="#facebook">Facebook</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#twitter">Twitter</a>
+    </div>
+    <div class="newsletter">
+        <p>Subscribe to our newsletter for the latest updates and promotions.</p>
+        <input type="email" placeholder="Your email">
+        <button>Subscribe</button>
+    </div>
+    <div class="legal">
+        <a href="#privacy-policy">Privacy Policy</a>
+        <a href="#terms-of-service">Terms of Service</a>
+    </div>
+</footer>
+ <!-- Footer Section ends -->
+  <!--contact section ends-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
